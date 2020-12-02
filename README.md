@@ -2,7 +2,7 @@
 
 # MicroPython-micro-bit
 # Talking Breath
-The micro:bit Talking LED Blink is a micro:bit Electronic Educational Engagement Tool designed to help students create a talking breath application.
+The micro:bit Talking LED Breath is a micro:bit Electronic Educational Engagement Tool designed to help students create a talking breath application.
 
 ## Schematic
 ![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Breath/blob/main/schematic.png?raw=true)<br>
