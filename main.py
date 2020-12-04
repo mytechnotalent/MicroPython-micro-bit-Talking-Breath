@@ -3,11 +3,14 @@ from time import sleep_ms
 from microbit import pin1, display, Image
 from speech import say
 
+# Customize bot speaking speed
+SPEED = 95
+
 val = 0
 
 while True:
     display.show(Image.SURPRISED)
-    say('The light is getting brighter!')
+    say('The light is getting brighter!', speed=SPEED)
     display.show(Image.HAPPY)
     # The val is initialized to 0 on line 6 and 
     # increments by one through each iteration
@@ -21,7 +24,7 @@ while True:
         sleep_ms(5)
    
     display.show(Image.SURPRISED)
-    say('The light is getting darker!')
+    say('The light is getting darker!', speed=SPEED)
     display.show(Image.HAPPY)    
     # After we complete the first loop the val
     # is now equal to 1023 so during this
